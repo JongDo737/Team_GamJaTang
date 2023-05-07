@@ -29,7 +29,11 @@ dependencies {
 //    testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
     //mongoDB
-    implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
+//    implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
+    // AWS SDK
+    implementation 'com.amazonaws:aws-java-sdk-dynamodb:1.12.4'
+    // Spring Data DynamoDB
+    implementation 'com.github.derjust:spring-data-dynamodb:5.2.5'
 
 }
 
